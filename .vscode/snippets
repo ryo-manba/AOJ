@@ -1,0 +1,55 @@
+{
+ 	"配列":{
+ 		"prefix": ["vec"],
+ 		"body": [ 
+	"vector<int> ",
+ 	],
+ 	"description": ""
+ 	},
+
+	 "2重配列":{
+		"prefix": ["vv"],
+		"body": [ 
+   "vector<vector<int>> "
+	],
+	"description": ""
+	},
+	
+	"出力":{
+		"prefix": ["cout"],
+		"body": [ 
+   "cout << $1 << endl;",
+   	],
+	"description": ""
+	},
+
+	"入力":{
+		"prefix": ["cin"],
+		"body": [ 
+   "cin >> $1",
+	],
+	"description": ""
+	},
+
+	"コメントアウト": {
+		"prefix": ["zcomment","comment"],
+		"body": [
+"/*",
+"$1",
+"*/"
+		],
+		"description": ""
+	},
+
+	"コメントアウト（小）": {
+		"prefix": ["zcomment-s","comment-s"],
+		"body": [
+"/* ========================================================",
+"$1",
+"=========================================================*/",
+"",
+			"$2"
+		],
+		"description": ""
+	},
+}
