@@ -1,11 +1,10 @@
-#include<bits/stdc++.h>
-typedef long long int ll;
-typedef unsigned long long int ull;
-#define BIG_NUM 2000000000
-#define HUGE_NUM 4000000000000000000
-#define MOD 1000000007
-#define EPS 0.000000001
+#include <bits/stdc++.h>
 using namespace std;
+typedef long long int ll;
+#define INF 1e9
+#define INFL 1e18
+#define MOD 1e9 + 7;
+#define EPS = 1e-10;
 
 int main()
 {
