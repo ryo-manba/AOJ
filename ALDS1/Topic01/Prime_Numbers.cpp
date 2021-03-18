@@ -7,6 +7,8 @@ typedef unsigned long long int ull;
 #define EPS 0.000000001
 using namespace std;
 
+// 素数判定
+
 bool isPrime(int n)
 {
     if (n == 1) return false;

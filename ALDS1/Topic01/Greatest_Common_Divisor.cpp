@@ -7,6 +7,8 @@ typedef unsigned long long int ull;
 #define EPS 0.000000001
 using namespace std;
 
+// 最大公約数
+
 int main()
 {
     int x, y, r;
