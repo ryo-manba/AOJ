@@ -4,8 +4,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /* 双方向連結リスト
     要素の挿入や削除は、ノードのリンクをつなぎかえることによって行う。

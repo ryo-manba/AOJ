@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /*  計数ソート (バケットソート)
     要素の値が小さいことに着目して，各要素に対して自身の値より小さい要素数を数えることにする.

@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /* 線形探索 (配列の先頭から各要素が目的の値と等しいかどうかを順番に調べる。
             等しいものが見つかった時点でその位置を返し探索を終了する。)*/

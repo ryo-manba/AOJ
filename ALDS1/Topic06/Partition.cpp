@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /*  パーティション 
     配列の末尾の要素を基準として、それ以下の大きさの要素とそれより大きい要素に分ける。

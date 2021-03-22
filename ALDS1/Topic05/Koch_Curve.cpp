@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 // コッホ曲線 (直線を3等分し、真ん中の部分で正三角形を作り下の線を消す)
 

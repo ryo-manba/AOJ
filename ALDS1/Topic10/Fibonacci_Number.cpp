@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 // フィボナッチ数列 (1つ前と2つ前の数を足して新しい数を計算する)
 

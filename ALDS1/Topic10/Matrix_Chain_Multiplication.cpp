@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /*  連鎖行列積 (行列を乗算するとき、計算回数を最小にする積の順序)
     1.行列どうしのかけ算は、「左の列数」と「右の行数」が等しくないとかけ算できない

@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /* 反転数 (転倒数とも呼ぶ。もとの配列において左側のほうが値が大きいようなペアの数。
         　バブルソートを行った交換回数と等しい ex){3, 1, 5, 4, 2}の転倒数は 5

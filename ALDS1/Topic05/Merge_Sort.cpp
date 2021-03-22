@@ -3,8 +3,8 @@ using namespace std;
 typedef long long int ll;
 #define INF 1e9
 #define INFL 1e18
-#define MOD 1e9 + 7;
-#define EPS = 1e-10;
+#define MOD 1e9 + 7
+#define EPS 1e-10
 
 /*  マージソート
     1. 指定されたn個の要素を含む部分配列をそれぞれ n / 2 個の要素を含む２つの部分配列に「分割」する。(Divide)
