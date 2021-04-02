@@ -8,7 +8,7 @@ typedef long long int ll;
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return true; } return false; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return true; } return false; }
 
-// n この整数から異なるk 個の整数を選ぶ組み合わせの列挙
+// n 個の整数から異なる k 個の整数を選ぶ組み合わせの列挙
 
 int main()
 {
@@ -16,7 +16,7 @@ int main()
     cin >> n >> k;
     for (int i = 0; i < (1 << n); i++)
     {
-        if (__builtin_popcount(i) - k) continue;    // 立っているビットを数える(k 個だったら0 で抜ける)
+        if (__builtin_popcount(i) - k) continue;    // 立っているビットを数える(k 個だったら 0 で抜ける)
         cout << i << ":";
         for (int j = 0; j < n; j++)
         {
